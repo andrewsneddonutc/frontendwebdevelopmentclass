@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pacific | Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- I've added a link for FontAwesome icons for you! -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+</head>
+<body>
+  <header>
+    <nav>
+      <a href='#' title="Home">Home</a>
+      <a href='#' title="Menu">Menu</a>
+      <a href='#' title='Location'>Location</a>
+      <a href='#' title='Reservations'>Reservations</a>
+      <a href='#' title='Gallery'>Gallery</a>
+    </nav>
+    <div>
+      <h1>Pacific</h1>
+      <h4>Seafood Served Fresh Daily</h4>
+    </div>
+  </header>
+  <section class='menu_buttons'>
+    <h4 class='menu_display'>Menu</h4>
+      <a href='#' title='Brunch' class='brunch_button'>Brunch</a>
+      <span class='menu_button_space'>/</span>
+      <a href='#' title='Dinner' class='dinner_button'>Dinner</a>
+      <span class='menu_button_space'>/</span>
+      <a href='#' title='Drinks' class='drinks_button'>Drinks</a>
+  </section>
+  <div class='display_grid'>
+    <section class='brunch'>
+      <div>
+        <h3>Onion Quiche</h3>
+        <p>quiche of caramelized onions, pickled vegetables, arugula</p>
+      </div>
+      <div>
+        <h3>Lox Bagel</h3>
+        <p>capers, tomato, cream cheese</p>
+      </div>
+      <div>
+        <h3>NY Bagel Plate</h3>
+        <p>smoked salmon, tomato, onion, cream cheese</p>
+      </div>
+      <div>
+        <h3>Smoked Salmon Benedict</h3>
+        <p>wild smoked salmon, poached eggs, english muffin</p>
+      </div>
+      <div>
+        <h3>Warm Quinoa</h3>
+        <p>blueberries, almonds, sweet cream</p>
+      </div>
+      <div>
+        <h3>Challah French Toast</h3>
+        <p>almonds, maple whipped cream</p>
+      </div>
+    </section>
+    <section class='dinner'>
+      <div>
+        <h3>Primavera Salad</h3>
+        <p>arugula, cherry tomato, shallot vinaigrette</p>
+      </div>
+      <div>
+        <h3>Grilled Calamari</h3>
+        <p>tomato sauce, lemon</p>
+      </div>
+      <div>
+        <h3>Branzino</h3>
+        <p>cucumber, shallots, puffed brown rice</p>
+      </div>
+      <div>
+        <h3>Yellowfin Tuna</h3>
+        <p>aged balsamic and crispy fennel</p>
+      </div>
+      <div>
+        <h3>Maya Prawns</h3>
+        <p>corriander mayonnaise</p>
+      </div>
+      <div>
+        <h3>Cold Poached Lobster</h3>
+        <p>tomalley vinaigrette</p>
+      </div>
+    </section>
+    <section class='drinks'>
+      <div>
+        <h3>Manhattan</h3>
+        <p>rye whisky, sweet vermouth, bitters</p>
+      </div>
+      <div>
+        <h3>Dark &amp; Stormy</h3>
+        <p>black rum, ginger beer, lime</p>
+      </div>
+      <div>
+        <h3>Old Cuban</h3>
+        <p>aged rum, lime juice, bitters, champagne</p>
+      </div>
+      <div>
+        <h3>Negroni</h3>
+        <p>gin, vermouth rosso, campari</p>
+      </div>
+      <div>
+        <h3>Bloody Mary</h3>
+        <p>tomato juice, vodka, tabasco, bacon bits</p>
+      </div>
+      <div>
+        <h3>Green &amp; Amber</h3>
+        <p>vodka, single-malt scotch, honey, lemon, green tea</p>
+      </div>
+      <div>
+        <h3>White Russian</h3>
+        <p>vodka, tia maria, heavy cream</p>
+      </div>
+      <div>
+        <h3>Sauvignon Blanc</h3>
+        <p>cloudy bay, new zealand, 2012</p>
+      </div>
+    </section>
+  </div>
+  <section class='carousel_section'>
+    <img class='carousel_image' src='images/christopher-flowers-234182.jpg' alt='temp'>
+    <img class='carousel_image' src='images/armando-ascorve-morales-155473.jpg' alt='temp'>
+    <img class='carousel_image' src='images/luca-bravo-287775.jpg' alt='temp'>
+    <button class='left_button' onclick="plusDivs(-1)">&#10094;</button>
+    <button class='right_button' onclick="plusDivs(+1)">&#10095;</button>
+  </section>
+  <!-- Add Slider images here -->
+  <section class='location'>
+    <div id='location_description'>
+      <h3>Location</h3>
+      <h5>Phone</h5>
+      <p>(415) 243-1234</p>
+      <h5>Location</h5>
+      <p>30 Bolinas Ave <br>
+        at Downtown Plaza <br>
+        Bolinas, CA 94110</p>
+        <h5>Hours</h5>
+        <p>M-Th 5p–11 <br>
+          F-Sa 12p–11p <br>
+          Su 10a–11p</p>
+        </div>
+        <div id='map_image'>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206989.87646855236!2d-78.78514250464796!3d35.843686659435626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac5a2f9f51e0f7%3A0x6790b6528a11f0ad!2sRaleigh%2C+NC!5e0!3m2!1sen!2sus!4v1505331600890" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </section>
+      <section class='reservations'>
+        <button id='reservation_button'>Make Reservation</button>
+      </section>
+      <section class='modal_section'>
+        <form>
+          <button type='button' id='close_button'>Exit</button>
+          <h1>Make a Reservation</h1>
+          <input type='text' name'fullname' value='Full Name' size='40'>
+          <br>
+          <input type='text' name='email_address' value='Email Address' size='40'>
+          <br>
+          <textarea name='reservation_time' cols='40' rows='5'>When would you like to make a reservation?</textarea>
+          <br>
+          <input type='submit' value='Reserve'>
+        </form>
+      </section>
+      <footer>
+        <div>
+          <p>Hours</p>
+          <p>M-Th 5p–11p</p>
+          <p>F-Sa 12p–11p</p>
+          <p>Su 10a–11p</p>
+        </div>
+        <div>
+          <p><a href='#' title='Menu'>Menu</a></p>
+          <p><a href='#' title='Location'>Location</a></p>
+          <p><a href='#' title='Reservations'>Reservations</a></p>
+          <p><a href='#' title='Gallery'>Gallery</a></p>
+        </div>
+        <div>
+          <p>Phone</p>
+          <p>(415) 243-1234</p>
+        </div>
+      </footer>
+      <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+      <script src="js/main.js"></script>
+    </body>
+    </html>
